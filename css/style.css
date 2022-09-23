@@ -1,0 +1,535 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+p {
+  margin-bottom: 0rem;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+div {
+  color: white;
+}
+/* General */
+/* Header */
+.main__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #161616;
+  color: white;
+  width: 100%;
+  align-content: center;
+}
+
+.main__header__img {
+  height: 50px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.main__header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 100%;
+  gap: 4px;
+}
+
+ul ul {
+  display: none;
+}
+
+/* Header */
+/* Index General 1 */
+.contenedor__gris__1 {
+  background-color: #161616;
+  background-image: url(../img/detalles2.png);
+}
+.titulo-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 30px;
+}
+.leyenda__1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 15px;
+  line-height: 20px;
+  padding-top: 30px;
+  margin-left: 15px;
+}
+.video iframe {
+  width: 100%;
+}
+
+.bronco__cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bronco__azul img {
+  width: 484px;
+  height: 300px;
+}
+.cta {
+  background-color: #2b89d0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  box-shadow: 0 0 15px #2b89d0;
+  border-radius: 41px;
+}
+
+.contenedor__caracteristicas {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+.caracteristicas {
+  display: flex;
+  width: 100%;
+  background-color: #212121;
+  border-radius: 41px;
+  box-shadow: 0 0 15px #2b89d0;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+}
+.caracteristicas p {
+  padding: 5px;
+}
+/* Index General 1 */
+/* Index General 2 */
+.contenedor__gris__2 {
+  background-color: #161616;
+  background-image: url(../img/detalles2.png);
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.bronco-cta {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bronco__amarilla img {
+  width: 100%;
+  padding-top: 10px;
+}
+.cta2 {
+  background-color: #ffe600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  box-shadow: 0 0 15px #ffe600;
+  border-radius: 41px;
+  margin-bottom: 30px;
+}
+.contenedorCuadradoGris {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cuadradoGris {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #212121;
+  padding: 30px 15px;
+  margin: 30px 15px;
+  border-radius: 41px;
+  box-shadow: 0 0 15px #ffe600;
+  text-align: center;
+}
+.cuadradoGrisTittle {
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 0px;
+}
+/* Index General 2 */
+/* footer */
+.footer {
+  display: flex;
+  background-color: #161616;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logoFooter img {
+  height: 60px;
+  padding: 5px;
+}
+
+.itemsFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 15px;
+}
+.logoInstagram {
+  height: 30px;
+  width: 30px;
+  margin: 0%;
+  margin-left: 20px;
+}
+/* Footer */
+/* Css contacto */
+.contenedor__gris__3 {
+  background-color: #161616;
+  background-image: url(../img/detalles2.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+.cuadradoGris2 {
+  display: flex;
+  background-color: #212121;
+  border-radius: 41px;
+  box-shadow: 0 0 15px white;
+  width: 90%;
+  height: 60%;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.tituloContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nombreForm {
+  margin: 10px;
+  font-size: 15px;
+  background-color: #212121;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  width: 80%;
+}
+.emailForm {
+  margin: 10px;
+  background-color: #212121;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  width: 80%;
+  font-size: 15px;
+}
+.telefonoForm {
+  margin: 10px;
+  font-size: 15px;
+  background-color: #212121;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  width: 80%;
+}
+.dniForm {
+  margin: 10px;
+  font-size: 15px;
+  background-color: #212121;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  width: 80%;
+}
+.enviarForm {
+  background-color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 41px;
+  box-shadow: 0 0 15px white;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.enviarForm:hover {
+  background-color: #2b89d0;
+  cursor: pointer;
+}
+/* Comienzo mediaqueries */
+@media (min-width: 992px) {
+  /* Header */
+
+  .main__header__img {
+    height: 100px;
+    padding: 15px;
+  }
+
+  .main__header__nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 40px;
+    padding: 15px;
+    width: 500px;
+  }
+  .main__header ul li {
+    display: inline-block;
+    width: 8%;
+    align-items: center;
+  }
+  ul ul {
+    position: absolute;
+    display: none;
+    padding: 10px 0 0 10px;
+    overflow: auto;
+    text-align: start;
+  }
+
+  ul li:hover ul {
+    display: block;
+  }
+
+  /* Header */
+  /* Index General 1 */
+  .main__uno {
+    background-image: url(../img/wallpaper-2.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+  }
+  .contenedor__gris__1 {
+    width: 1440px;
+    height: 990px;
+    display: grid;
+    grid-template-columns: 720px 720px;
+  }
+  .titulo-video {
+    align-items: center;
+    margin-top: 80px;
+  }
+  .leyenda__1 {
+    font-size: 22px;
+    line-height: 40px;
+    margin-left: 0px;
+  }
+
+  .video iframe {
+    width: 500px;
+  }
+
+  .bronco__cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .bronco__azul img {
+    width: 584px;
+    height: 464px;
+    padding-top: 40px;
+  }
+  .contenedor__caracteristicas {
+    width: 1440px;
+  }
+  .caracteristicas {
+    display: flex;
+    width: 1160px;
+    height: 95px;
+    top: 800px;
+    left: 380px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  /* Index General 1 */
+  /* Index General 2 */
+  .main__dos {
+    background-image: url(../img/wallpaper-1.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+  }
+  .contenedor__gris__2 {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 990px;
+  }
+  .bronco-cta {
+    width: 720px;
+  }
+  .contenedorCuadradoGris {
+    width: 720px;
+  }
+  .cuadradoGris {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 620px;
+    padding: 5px;
+  }
+  .cuadradoGrisTittle {
+    margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 0px;
+  }
+  .descripcionCreación {
+    text-align: center;
+    line-height: 22px;
+  }
+  /* Index General 2 */
+  /* footer */
+  .footer {
+    justify-content: space-evenly;
+  }
+  .logoFooter img {
+    height: 60px;
+    padding: 15px;
+  }
+
+  .itemsFooter {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 40px;
+    padding: 15px;
+  }
+
+  .logoInstagram {
+    height: 30px;
+    width: 30px;
+    margin: 0%;
+    margin-left: 20px;
+  }
+  .itemsFooter a {
+    color: #808080;
+  }
+  /* Footer */
+
+  /* CSS Contacto */
+  .main__tres {
+    background-image: url(../img/wallpaper-2.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor__gris__3 {
+    width: 1440px;
+    height: 990px;
+  }
+
+  .cuadradoGris2 {
+    box-shadow: 0 0 15px white;
+    width: 50%;
+    height: 45%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .tituloContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nombreForm {
+    margin: 20px;
+    font-size: 20px;
+    background-color: #212121;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 80%;
+  }
+  .emailForm {
+    margin: 20px;
+    background-color: #212121;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 80%;
+    font-size: 20px;
+  }
+  .telefonoForm {
+    margin: 20px;
+    font-size: 20px;
+    background-color: #212121;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 80%;
+  }
+  .dniForm {
+    margin: 20px;
+    font-size: 20px;
+    background-color: #212121;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 80%;
+  }
+  .enviarForm {
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 41px;
+    box-shadow: 0 0 15px white;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .enviarForm:hover {
+    background-color: #2b89d0;
+    cursor: pointer;
+  }
+}
