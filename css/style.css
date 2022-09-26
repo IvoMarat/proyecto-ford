@@ -15,6 +15,9 @@ a {
 p {
   margin-bottom: 0rem;
 }
+:root {
+  --bs-link-hover-color: gray;
+}
 
 ul,
 ol {
@@ -316,13 +319,16 @@ ul ul {
   ul ul {
     position: absolute;
     display: none;
-    padding: 10px 0 0 10px;
+    padding: 10px 0 0 0px;
     overflow: auto;
-    text-align: start;
+    text-align: center;
+    padding-bottom: 10px;
   }
 
   ul li:hover ul {
     display: block;
+    background-color: #212121;
+    border-radius: 15px;
   }
 
   /* Header */
