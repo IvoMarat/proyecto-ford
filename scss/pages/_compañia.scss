@@ -1,0 +1,40 @@
+@media (min-width: 992px) {
+  .main__seis {
+    background-image: url(../img/wallpaper-2.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor__gris__6 {
+    background-color: #161616;
+    background-image: url(../img/detalles2.png);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 990px;
+    overflow: hidden;
+  }
+  .ubicaciones {
+    display: flex;
+    flex-direction: column;
+  }
+  .ubicaciones div{
+    padding-bottom: 20px;
+  }
+  .leyendaCompañia {
+    width: 50%;
+    text-align: center;
+  }
+  .tituloCompañia h1 {
+    color: #2b89d0;
+  }
+  .textoCompañía {
+    color: gray;
+  }
+}

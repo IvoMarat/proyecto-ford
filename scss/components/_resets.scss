@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  p {
+    margin-bottom: 0rem;
+  }
+  :root {
+    --bs-link-hover-color: gray;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  div {
+    color: white;
+  }

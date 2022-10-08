@@ -1,0 +1,62 @@
+@media (min-width: 992px) {
+  .main__cinco {
+    background-image: url(../img/wallpaper-2.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor__gris__5 {
+    background-color: #161616;
+    background-image: url(../img/detalles2.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 990px;
+    overflow: hidden;
+  }
+  .tituloAbout {
+    padding-top: 20px;
+    font-size: 30px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .primerosAños {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .primerosAños div {
+    padding-right: 30px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+  .imagenHistoria {
+    height: 210px;
+    width: 420px;
+    box-shadow: 0 0 15px white;
+  }
+  .textoHistoria {
+    width: 30%;
+  }
+  .plantaPacheco {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plantaPacheco div {
+    padding-right: 30px;
+  }
+  .subAbout{
+    color: #2b89d0;
+  }
+}
