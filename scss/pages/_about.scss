@@ -1,3 +1,47 @@
+.contenedor__gris__5 {
+  background-color: #161616;
+  background-image: url(../img/detalles2.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.tituloAbout {
+  padding-top: 20px;
+  font-size: 25px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.primerosAños {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.plantaPacheco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.imagenHistoria {
+  width: 90%;
+  box-shadow: 0 0 15px white;
+  margin-left: 5%;
+}
+.textoHistoria {
+  width: 90%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.subAbout {
+  color: #2b89d0;
+}
 @media (min-width: 992px) {
   .main__cinco {
     background-image: url(../img/wallpaper-2.png);
@@ -10,8 +54,6 @@
     justify-content: center;
   }
   .contenedor__gris__5 {
-    background-color: #161616;
-    background-image: url(../img/detalles2.png);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,13 +61,13 @@
     height: 990px;
     overflow: hidden;
   }
+  .contenedor__gris__5 div {
+    padding-bottom: 0px;
+  }
   .tituloAbout {
-    padding-top: 20px;
     font-size: 30px;
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+    width: 70%;
+    padding-top: 0px;
   }
   .primerosAños {
     display: flex;
@@ -35,8 +77,8 @@
   }
   .primerosAños div {
     padding-right: 30px;
-    padding-bottom: 70px;
-    padding-top: 70px;
+    padding-bottom: 40px;
+    padding-top: 0px;
   }
   .imagenHistoria {
     height: 210px;
@@ -45,18 +87,19 @@
   }
   .textoHistoria {
     width: 30%;
+    text-align: start;
+    margin-bottom: 0px;
   }
   .plantaPacheco {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    padding-top: 0px;
+    gap: 20px;
   }
 
   .plantaPacheco div {
     padding-right: 30px;
-  }
-  .subAbout{
-    color: #2b89d0;
   }
 }
