@@ -8452,6 +8452,8 @@ textarea.form-control-lg {
     justify-content: center;
     padding: 5px;
     width: 100%; }
+  .main__header li {
+    padding-right: 20px; }
   .main__header ul ul {
     display: none; }
   .main__header ul li {
@@ -9020,7 +9022,8 @@ div {
   .descripcionCreación {
     text-align: center;
     line-height: 22px;
-    width: 90%; } }
+    width: 90%;
+    text-align: justify; } }
 
 /* Index General 2 */
 .contenedor__gris__4 {
@@ -9029,15 +9032,15 @@ div {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  padding-top: 30px; }
 
 .imagenesRodados {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding-top: 30px; }
+  text-align: center; }
 
 .imagenesRodados div {
   padding-bottom: 30px; }
@@ -9075,8 +9078,8 @@ div {
   .imagenesRodados div {
     padding: 9px; }
   .imagenesRodados div img {
-    height: 300px;
-    width: 450px; }
+    height: 250px;
+    width: 400px; }
   .textoRodados {
     font-size: 30px;
     width: auto; } }
