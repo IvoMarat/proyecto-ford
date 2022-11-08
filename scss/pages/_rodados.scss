@@ -1,13 +1,13 @@
-.contenedor__gris__4 {
+.main__cuatro__contenedor {
   background-color: #161616;
   background-image: url(../img/detalles2.png);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   width: 100%;
   padding-top: 30px;
 }
-.imagenesRodados {
+.main__cuatro__contenedor__img {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,10 +15,10 @@
   text-align: center;
 }
 
-.imagenesRodados div {
+.main__cuatro__contenedor__img div {
   padding-bottom: 30px;
 }
-.imagenesRodados div img {
+.main__cuatro__contenedor__img div img {
   width: 90%;
   height: 10%;
   box-shadow: 0 0 10px white;
@@ -29,7 +29,7 @@
   width: auto;
   }
 
-@media (min-width: 992px) {
+@media (min-width: 1255px) {
   .main__cuatro {
     background-image: url(../img/wallpaper-1.png);
     background-repeat: repeat-x;
@@ -40,11 +40,11 @@
     display: flex;
     justify-content: center;
   }
-  .contenedor__gris__4 {
+  .main__cuatro__contenedor {
     width: 1440px;
     height: 990px;
   }
-  .imagenesRodados {
+  .main__cuatro__contenedor__img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -52,13 +52,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 100px;
 
   }
 
-  .imagenesRodados div {
+  .main__cuatro__contenedor__img div {
     padding: 9px;
   }
-  .imagenesRodados div img {
+  .main__cuatro__contenedor__img div img {
     height: 250px;
     width: 400px;
   }

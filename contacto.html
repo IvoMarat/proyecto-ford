@@ -13,12 +13,6 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&family=Montserrat:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -63,36 +57,42 @@
       <!-- fin header -->
     <!-- comienzo cuerpo principal  -->
     <main>
-      <div class="main__tres">
-      <div class="contenedor__gris__3">
-<div class="cuadradoGris2">
-    <h1 class="tituloContacto">Contacto</h1>
-  <form action="Contacto.html" class="forms">
-    <input type="text" name="name" placeholder="Nombre" class="nombreForm" />
-    <input type="email" name="email" placeholder="Email" class="emailForm"/>
-    <input type="numero telefono" name="telefono" placeholder="Telefono" class="telefonoForm"/>
-    <input type="DNI" name="DNI" placeholder="DNI" class="dniForm"/>
-    <input type="submit" value="Enviar formulario" placeholder="Enviar" class="enviarForm"/>
-</div>
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./img/banner1.jpg" class="d-block w-100" alt="fotocarousel1">
+    <div class="main__tres">
+      <div class="main__tres__contenedor">
+        <div class="main__tres__contenedor__form">
+            <h1 class="tituloContacto">Contacto</h1>
+            <form action="Contacto.html" class="forms">
+            <input type="text" name="name" placeholder="Nombre" class="nombreForm" />
+            <label for="Nombre"></label>
+            <input type="email" name="email" placeholder="Email" class="emailForm"/>
+            <label for="email"></label>
+            <input type="numero telefono" name="telefono" placeholder="Telefono" class="telefonoForm"/>
+            <label for="numero telefono"></label>
+            <input type="DNI" name="DNI" placeholder="DNI" class="dniForm"/>
+            <label for="DNI"></label>
+            <input type="submit" value="Enviar formulario" placeholder="Enviar" class="enviarForm"/>
+            <label for="submit"></label>
+          </form>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/banner1.jpg" class="d-block w-100" alt="fotocarousel1">
+            </div>
+            <div class="carousel-item">
+            <img src="./img/banner1.jpg" class="d-block w-100" alt="fotocarousel2">
+            </div>
+            <div class="carousel-item">
+            <img src="./img/banner1.jpg" class="d-block w-100" alt="fotocarousel3">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="./img/banner1.jpg" class="d-block w-100" alt="fotocarousel2">
-    </div>
-    <div class="carousel-item">
-      <img src="./img/banner1.jpg" class="d-block w-100" alt="fotocarousel3">
-    </div>
-  </div>
-</div>
-</div>
-</div>
       <!-- fin cuerpo principal  -->
       </main>
-   <!-- principio footer -->
-   <footer class="footer">
+  <!-- principio footer -->
+  <footer class="footer">
     <div class="logoFooter">
       <img src="./img/logo-ford.png" alt="logo footer" />
     </div>

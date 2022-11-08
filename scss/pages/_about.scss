@@ -1,4 +1,4 @@
-.contenedor__gris__5 {
+.main__cinco__contenedor {
   background-color: #161616;
   background-image: url(../img/detalles2.png);
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
   width: 100%;
 }
-.tituloAbout {
+.main__cinco__contenedor__titulo {
   padding-top: 20px;
   font-size: 25px;
   width: 90%;
@@ -14,27 +14,26 @@
   flex-wrap: wrap;
   text-align: center;
 }
-.primerosAños {
+.main__cinco__contenedor_pa {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 50px;
 }
-
-.plantaPacheco {
+.main__cinco__contenedor_pp {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 50px;
 }
-.imagenHistoria {
+.main__cinco__contenedor_pa__img {
   width: 90%;
   box-shadow: 0 0 15px white;
   margin-left: 5%;
 }
-.textoHistoria {
+.main__cinco__contenedor_pa__text {
   width: 90%;
   text-align: center;
   margin-bottom: 20px;
@@ -53,7 +52,7 @@
     display: flex;
     justify-content: center;
   }
-  .contenedor__gris__5 {
+  .main__cinco__contenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,36 +60,36 @@
     height: 990px;
     overflow: hidden;
   }
-  .contenedor__gris__5 div {
+  .main__cinco__contenedor div {
     padding-bottom: 0px;
   }
-  .tituloAbout {
+  .main__cinco__contenedor__titulo {
     font-size: 30px;
     width: 70%;
     padding-top: 0px;
   }
-  .primerosAños {
+  .main__cinco__contenedor_pa {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-  .primerosAños div {
+  .main__cinco__contenedor_pa div {
     padding-right: 30px;
     padding-bottom: 40px;
     padding-top: 0px;
   }
-  .imagenHistoria {
+  .main__cinco__contenedor_pa__img {
     height: 210px;
     width: 420px;
     box-shadow: 0 0 15px white;
   }
-  .textoHistoria {
+  .main__cinco__contenedor_pa__text {
     width: 30%;
     text-align: start;
     margin-bottom: 0px;
   }
-  .plantaPacheco {
+  .main__cinco__contenedor_pp {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -99,7 +98,7 @@
     gap: 20px;
   }
 
-  .plantaPacheco div {
+  .main__cinco__contenedor_pp div {
     padding-right: 30px;
   }
 }

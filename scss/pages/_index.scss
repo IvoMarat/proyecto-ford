@@ -1,9 +1,9 @@
 /* Index General 1 */
-.contenedor__gris__1 {
+.main__uno__contenedor {
     background-color: #161616;
     background-image: url(../img/detalles2.png);
   }
-  .titulo-video {
+  .main__uno__contenedor__media1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -22,7 +22,7 @@
     width: 100%;
   }
   
-  .bronco__cta {
+  .main__uno__contenedor__media2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +45,7 @@
     border-radius: 41px;
   }
   
-  .contenedor__caracteristicas {
+  .main__uno__contenedor__caracteristicas{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -68,14 +68,14 @@
   }
   /* Index General 1 */
   /* Index General 2 */
-.contenedor__gris__2 {
+.main__dos__contenedor {
     background-color: #161616;
     background-image: url(../img/detalles2.png);
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
   }
-  .bronco-cta {
+  .main__dos__contenedor__media1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@
     border-radius: 41px;
     margin-bottom: 30px;
   }
-  .contenedorCuadradoGris {
+  .main__dos__contenedor_back {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -139,13 +139,13 @@
     justify-content: center;
     background-size: cover;
   }
-  .contenedor__gris__1 {
+  .main__uno__contenedor {
     width: 1440px;
     height: 990px;
     display: grid;
     grid-template-columns: 720px 720px;
   }
-  .titulo-video {
+  .main__uno__contenedor__media1 {
     align-items: center;
     margin-top: 80px;
   }
@@ -159,7 +159,7 @@
     width: 500px;
   }
 
-  .bronco__cta {
+  .main__uno__contenedor__media2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,7 +170,7 @@
     height: 464px;
     padding-top: 40px;
   }
-  .contenedor__caracteristicas {
+  .main__uno__contenedor__caracteristicas {
     width: 1440px;
   }
   .caracteristicas {
@@ -193,16 +193,16 @@
     justify-content: center;
     background-size: cover;
   }
-  .contenedor__gris__2 {
+  .main__dos__contenedor{
     display: flex;
     flex-direction: row;
     width: 1440px;
     height: 990px;
   }
-  .bronco-cta {
+  .main__dos__contenedor__media1 {
     width: 720px;
   }
-  .contenedorCuadradoGris {
+  .main__dos__contenedor_back {
     width: 720px;
   }
   .cuadradoGris {

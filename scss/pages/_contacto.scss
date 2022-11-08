@@ -1,5 +1,5 @@
 /* Css contacto */
-.contenedor__gris__3 {
+.main__tres__contenedor {
     background-color: #161616;
     background-image: url(../img/detalles2.png);
     display: flex;
@@ -8,7 +8,7 @@
     justify-content: flex-start;
     padding-top: 20px;
   }
-  .cuadradoGris2 {
+  .main__tres__contenedor__form {
     display: flex;
     background-color: #212121;
     border-radius: 41px;
@@ -92,12 +92,12 @@
         display: flex;
         justify-content: center;
       }
-      .contenedor__gris__3 {
+      .main__tres__contenedor {
         width: 1440px;
         height: 990px;
       }
     
-      .cuadradoGris2 {
+      .main__tres__contenedor__form {
         box-shadow: 0 0 15px white;
         width: 50%;
         height: 45%;
