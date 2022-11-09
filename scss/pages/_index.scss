@@ -1,7 +1,6 @@
 /* Index General 1 */
 .main__uno__contenedor {
-    background-color: #161616;
-    background-image: url(../img/detalles2.png);
+  @include background;
   }
   .main__uno__contenedor__media1 {
     display: flex;
@@ -33,7 +32,7 @@
     height: 300px;
   }
   .cta {
-    background-color: #2b89d0;
+    background-color: $colorUno;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,7 +40,7 @@
     width: 200px;
     height: 50px;
     font-size: 18px;
-    box-shadow: 0 0 15px #2b89d0;
+    box-shadow: 0 0 15px $colorUno;
     border-radius: 41px;
   }
   
@@ -57,7 +56,7 @@
     width: 100%;
     background-color: #212121;
     border-radius: 41px;
-    box-shadow: 0 0 15px #2b89d0;
+    box-shadow: 0 0 15px $colorUno;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -69,8 +68,7 @@
   /* Index General 1 */
   /* Index General 2 */
 .main__dos__contenedor {
-    background-color: #161616;
-    background-image: url(../img/detalles2.png);
+    @include background;
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
@@ -87,7 +85,7 @@
     padding-top: 10px;
   }
   .cta2 {
-    background-color: #ffe600;
+    background-color: $colorDos;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,7 +93,7 @@
     width: 200px;
     height: 50px;
     font-size: 18px;
-    box-shadow: 0 0 15px #ffe600;
+    box-shadow: 0 0 15px $colorDos;
     border-radius: 41px;
     margin-bottom: 30px;
   }
@@ -115,7 +113,7 @@
     padding: 30px 15px;
     margin: 30px 15px;
     border-radius: 41px;
-    box-shadow: 0 0 15px #ffe600;
+    box-shadow: 0 0 15px $colorDos;
     text-align: justify;
   }
   .cuadradoGrisTittle {
@@ -131,13 +129,11 @@
   @media (min-width: 1440px){
       /* Index General 1 */
   .main__uno {
-    background-image: url(../img/wallpaper-2.png);
-    background-repeat: repeat-x;
+    @include fondoUno;
     width: 100%;
     padding: 0px;
     display: flex;
     justify-content: center;
-    background-size: cover;
   }
   .main__uno__contenedor {
     width: 1440px;
@@ -186,12 +182,10 @@
     /* Index General 1 */
     /* Index General 2 */
   .main__dos {
-    background-image: url(../img/wallpaper-1.png);
-    background-repeat: repeat-x;
+    @include fondoDos;
     width: 100%;
     display: flex;
     justify-content: center;
-    background-size: cover;
   }
   .main__dos__contenedor{
     display: flex;

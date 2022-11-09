@@ -31,40 +31,43 @@
     <title>Historia</title>
   </head>
   <body>
-    <!-- comienzo header -->
-    <header class="main__header">
-      <div class="logo">
-        <a href="./index.html"
-          ><img src="./img/logo-ford.png" class="main__header__img"
-        /></a>
+     <!-- comienzo header -->
+     <nav class="navbar navbar-expand-lg" style="background-color: #161616">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"><img src="./img/logo-ford.png" alt="logo" height="70"></a>
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-3">
+              <a class="nav-link active text-white" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown pe-3">
+              <a class="nav-link dropdown-toggle text-white" href="./rodados.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Rodados
+              </a>
+              <ul class="dropdown-menu" style="background-color: #161616;">
+                <li><a class="dropdown-item text-white" href="./rodados.html">Fiesta</a></li>
+                <li><a class="dropdown-item text-white" href="./rodados.html">Focus</a></li>
+                <li><a class="dropdown-item text-white" href="./rodados.html">Ecosport</a></li>
+                <li><a class="dropdown-item text-white" href="./rodados.html">Territory</a></li>
+                <li><a class="dropdown-item text-white" href="./index.html">Bronco</a></li>
+              </ul>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link active text-white" aria-current="page" href="./about.html">About</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link active text-white" aria-current="page" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link active text-white" aria-current="page" href="./compañia.html">Sucursales</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <nav>
-        <ul class="main__header__nav">
-          <li>
-            <a href="./index.html">Inicio</a>
-          </li>
-          <li>
-            <a href="./rodados.html">Rodados</a>
-            <ul class="main__header__nav__rodados">
-              <p>Fiesta</p>
-              <p>Focus</p>
-              <p>Ecosport</p>
-              <p>Territory</p>
-              <a href="./index.html"><p>Bronco</p></a>
-            </ul>
-          </li>
-          <li>
-            <a href="./about.html">About</a>
-          </li>
-          <li>
-            <a href="./contacto.html">Contacto</a>
-          </li>
-          <li>
-            <a href="./compañia.html">Sucursales</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    </nav>
     <!-- fin header -->
     <!-- comienzo cuerpo principal  -->
     <main class="main__cinco">
@@ -168,5 +171,10 @@
       </div>
     </footer>
     <!-- fin footer -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>

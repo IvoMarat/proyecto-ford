@@ -1,51 +1,50 @@
 .main__cinco__contenedor {
-  background-color: #161616;
-  background-image: url(../img/detalles2.png);
+  @include background;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-}
-.main__cinco__contenedor__titulo {
-  padding-top: 20px;
-  font-size: 25px;
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-}
-.main__cinco__contenedor_pa {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-}
-.main__cinco__contenedor_pp {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-}
-.main__cinco__contenedor_pa__img {
-  width: 90%;
-  box-shadow: 0 0 15px white;
-  margin-left: 5%;
-}
-.main__cinco__contenedor_pa__text {
-  width: 90%;
-  text-align: center;
-  margin-bottom: 20px;
+  &__titulo {
+    padding-top: 20px;
+    font-size: 25px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  &_pa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    &__img {
+      width: 90%;
+      box-shadow: 0 0 15px white;
+      margin-left: 5%;
+    }
+    &__text {
+      width: 90%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  &_pp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
 }
 .subAbout {
-  color: #2b89d0;
+  color: $colorUno;
 }
+
+
 @media (min-width: 992px) {
   .main__cinco {
-    background-image: url(../img/wallpaper-2.png);
-    background-repeat: repeat-x;
-    background-size: cover;
+    @include fondoUno;
     background-position: center center;
     width: 100%;
     padding: 0px;
@@ -101,4 +100,5 @@
   .main__cinco__contenedor_pp div {
     padding-right: 30px;
   }
+  
 }

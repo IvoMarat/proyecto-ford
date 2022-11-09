@@ -1,23 +1,22 @@
 /* Css contacto */
 .main__tres__contenedor {
-    background-color: #161616;
-    background-image: url(../img/detalles2.png);
+    @include background;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     padding-top: 20px;
-  }
-  .main__tres__contenedor__form {
-    display: flex;
-    background-color: #212121;
-    border-radius: 41px;
-    box-shadow: 0 0 15px white;
-    width: 90%;
-    height: 60%;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 30px;
+    &__form {
+      display: flex;
+      background-color: #212121;
+      border-radius: 41px;
+      box-shadow: 0 0 15px white;
+      width: 90%;
+      height: 60%;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
   }
   .tituloContacto {
     display: flex;
@@ -78,33 +77,30 @@
   }
   
   .enviarForm:hover {
-    background-color: #2b89d0;
+    background-color: $colorUno;
     cursor: pointer;
   } 
   @media (min-width: 992px){
     .main__tres {
-        background-image: url(../img/wallpaper-1.png);
-        background-repeat: repeat-x;
-        background-size: cover;
+        @include fondoDos;
         background-position: center center;
         width: 100%;
         padding: 0px;
         display: flex;
         justify-content: center;
-      }
-      .main__tres__contenedor {
-        width: 1440px;
-        height: 990px;
-      }
-    
-      .main__tres__contenedor__form {
-        box-shadow: 0 0 15px white;
-        width: 50%;
-        height: 45%;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 70px;
+        &__contenedor {
+          width: 1440px;
+          height: 990px;
+          &__form {
+            box-shadow: 0 0 15px white;
+            width: 50%;
+            height: 45%;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 70px;
+          }
+        }
       }
       .tituloContacto {
         display: flex;
@@ -163,7 +159,7 @@
       }
     
       .enviarForm:hover {
-        background-color: #2b89d0;
+        background-color: $colorUno;
         cursor: pointer;
       }
   }

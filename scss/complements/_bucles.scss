@@ -1,0 +1,16 @@
+@mixin background {
+    background-color: #161616;
+    background-image: url(../img/detalles2.png);
+}
+@mixin fondoUno {
+    background-image: url(../img/wallpaper-2.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+@mixin fondoDos {
+    background-image: url(../img/wallpaper-1.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+

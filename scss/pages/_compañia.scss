@@ -1,6 +1,5 @@
 .main__seis_contenedor {
-  background-color: #161616;
-  background-image: url(../img/detalles2.png);
+  @include background;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,9 +13,9 @@
 }
 .main__seis__contenedor__compañia h1 {
   font-size: 35px;
-  color: #2b89d0;
+  color: $colorUno;
 }
-.main__seis__contenedor__compañia {
+.main__seis__contenedor__texto {
   color: gray;
 }
 .main__seis__contenedor__mapa {
@@ -25,33 +24,31 @@
 }
 @media (min-width: 992px) {
   .main__seis {
-    background-image: url(../img/wallpaper-2.png);
-    background-repeat: repeat-x;
-    background-size: cover;
+    @include fondoUno;
     background-position: center center;
     width: 100%;
     padding: 0px;
     display: flex;
     justify-content: center;
-  }
-  .main__seis_contenedor{
-    background-color: #161616;
-    background-image: url(../img/detalles2.png);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 1440px;
-    height: 990px;
-    text-align: start;
-  }
-  .main__seis__contenedor__ubicacion {
-    display: flex;
-    flex-direction: column;
-  }
-  .main__seis__contenedor__compañia{
-    width: 50%;
-    text-align: center;
+    &_contenedor{
+      background-color: #161616;
+      background-image: url(../img/detalles2.png);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 1440px;
+      height: 990px;
+      text-align: start;
+      &__ubicacion {
+        display: flex;
+        flex-direction: column;
+      }
+      &__compañia{
+        width: 50%;
+        text-align: center;
+      }
+    }
   }
   .main__seis__contenedor__compañia h1 {
     font-size: 50px;
